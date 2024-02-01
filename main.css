@@ -5,6 +5,10 @@ body {
   overflow: hidden;
 }
 
+p {
+  margin: 0;
+}
+
 #effect {
   font-size: 10px;
   line-height: 8px;
