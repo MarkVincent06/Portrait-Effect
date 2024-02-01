@@ -1,4 +1,4 @@
-window.addEventListener("resize", function () {
+function checkScreenSize() {
   if (window.innerWidth < 550) {
     console.log("hello");
 
@@ -8,4 +8,7 @@ window.addEventListener("resize", function () {
     document.querySelector("#centeredParagraph").style.display = "none";
     document.querySelector("#effect").style.display = "block";
   }
-});
+}
+
+window.addEventListener("resize", checkScreenSize);
+window.addEventListener("load", checkScreenSize);
